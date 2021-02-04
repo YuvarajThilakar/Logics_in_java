@@ -67,7 +67,7 @@ public class PrintingNumberToWords {
 
 		while (inputNumber > 0) {
 			number = inputNumber % 10;
-			stack.add(number);
+			stack.push(number);
 			inputNumber = inputNumber / 10;
 			position++;
 		}
