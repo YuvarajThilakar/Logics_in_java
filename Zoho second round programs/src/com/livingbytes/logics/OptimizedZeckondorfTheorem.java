@@ -7,6 +7,7 @@ import java.util.TreeSet;
 public class OptimizedZeckondorfTheorem {
 
 	public static void main(String[] args) {
+		
 		int inputNumber = Integer.parseInt(args[0]);
 		
 		TreeSet<Integer> fibanocci = new TreeSet<Integer>();
