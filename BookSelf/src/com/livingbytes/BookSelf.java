@@ -13,6 +13,10 @@ public class BookSelf {
 		this.books = new HashMap<String, Book>();
 	}
 	
+	public void addBook(String bookName, String authorName) {
+		this.books.put(bookName, new Book(bookName, authorName));
+	}
+	
 	public void showPage(String name, int pageNumber) {
 		books.get(name).showPage(pageNumber);
 	}
